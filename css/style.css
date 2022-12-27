@@ -6,6 +6,8 @@
 
 header {
     padding: 20px;
+    background-color: white;
+    margin-bottom: 100px;
 }
 
 #logo {
@@ -14,42 +16,115 @@ header {
 
 
 .titolo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     vertical-align: middle;
 }
 
-.bg {
+body {
     background-color: #f6f8f9;
 }
 
 .container {
-    width: 1500px;
-    margin: 0px auto;
+    width: 80%;
+    margin: 0 auto;
     background-color: white;
-    text-align: left;
 }
 
-.add {
-    padding: 30px 0 30px 0;
-
+.card {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
 }
 
-button
-
-details {
-    padding: 0;
+.card-head {
+    padding: 15px;
+    border: 2px solid #f6f8f9;
 }
 
-summary {
-    font-weight: bold;
-    font-size: x-large;
+.btn {
+    padding: 8px;
+    background-color: white;
+    border: 1px solid currentColor;
+    color: #222;
+    border-radius: 5px;
 }
 
-details[open] {
-
+.btn.btn-primary {
+    color: white;
+    border: 1px solid #47adf1;
+    background-color: #47adf1;
 }
 
-details[open] summary {
+.btn.btn-outline {
+    color: #444;
+    background-color: transparent;
+}
 
+.card-body {
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-item {
+    vertical-align: middle;
+    margin: 5px;
+}
+
+
+.list-item.check::before {
+    display: inline-block;
+    content: '\2714';
+    color: green;
+    font-size: 25px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    width: 30px;
+    aspect-ratio: 1;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.list-item.uncheck::before {
+    display: inline-block;
+    content: '\2718';
+    color: red;
+    font-size: 25px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    width: 30px;
+    aspect-ratio: 1;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 12px;
+}
+
+.editorials {
+    background-color: #45abea;
+}
+
+.q1 {
+    background-color: #9c72e4;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.sales {
+    background-color: #b0c926;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/logo copia.png" type="logo">
 
 </head>
 <body>
@@ -15,34 +16,66 @@
         <span class="titolo">Toboolist</span>
     </header>
     
-    <div class="bg">
-        <main class="container">
-            <nav class="add">
-                <button>
-                    Add task
-                </button>
-                <button>
-                    Add section
-                </button>
+    <main class="container">
+        <div class="card">
+            <div class="card-head">
+                <button class="btn btn-primary">Add Task</button>
+                <button class="btn btn-outline">Add Section</button>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        <h3 class="list-heading">&#9662 New Task</h3>
+                        <ul>
+                            <li class="list-item check">
+                                Quartrerly newsletter <span class="label editorials">Editorials</span>
+                            </li>
+                        </ul>
+                    </li>
 
-            </nav>
-            <nav>
-                <details>
-                    <summary>New Task</summary>
+                    <li>
+                        <h3 class="list-heading">&#9662 Today</h3>
+                        <ul>
+                            <li class="list-item check">
+                                Recuiting blog post <span class="label editorials">Editorials</span>
+                            </li>
+                            <li class="list-item check">
+                                Mobile app launch <span class="label q1">Q1 Goals</span>
+                            </li>
+                            <li class="list-item uncheck">
+                                Interview John H. <span class="label recruiting">Recruiting</span>
+                            </li>
+                            <li class="list-item check">
+                                Summit apdate to mobile storefronts <span class="label">Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="list-heading">&#9662 Upcoming</h3>
+                        <ul>
+                            <li class="list-item uncheck">
+                                Schedule meeting with Alex
+                            </li>
+                            <li class="list-item check">
+                                Homepage refresh <span class="label website">Website</span>
+                            </li>
+                            <li class="list-item check">
+                                Onboard new sales team members <span class="label sales">Sales</span>
+                            </li>
+                            <li class="list-item check">
+                                Review editorial calendar <span class="label editorials">Editorials</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
 
-                </details>
-                <details>
-                    <summary>Today</summary>
-                
-                </details>
-                <details>
-                    <summary>Upcoming</summary>
-                
-                </details>
-                
-            </nav>
+            </div>
 
-        </main>
-    </div>
+        </div>
+
+    </main>
+
+
+    
 </body>
 </html>
